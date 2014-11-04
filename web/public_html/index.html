@@ -12,8 +12,8 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -32,18 +32,59 @@
                 </nav>
             </header>
         </div><br />
-
+<!--
         <script>
             $("#header").load("header.html");
         </script>   
-
+-->
         <div class="main-container">
+			<div id="nav">
+				<ul>
+					<li id="part1"><button>Lesson 1</button>
+						<ul>
+							<li class="lesson1"><a href="#">Lesson 1A</a></li>
+							<li class="lesson1"><a href="#">Lesson 1A</a></li>
+							<li class="lesson1"><a href="#">Lesson 1A</a></li>
+							<li class="lesson1"><a href="#">Lesson 1A</a></li>
+						</ul>
+					</li>
+					<li id="part2"><button>Tournament Rules</button>
+						<ul>
+							<li class="lesson2"><a href="#">Lesson 2A</a></li>
+							<li class="lesson2"><a href="#">Lesson 2B</a></li>
+							<li class="lesson2"><a href="#">Lesson 2C</a></li>
+							<li class="lesson2"><a href="#">Lesson 2D</a></li>
+						</ul>
+					</li>
+					<li id="part3"><button>Policy</button>
+						<ul>
+							<li class="lesson3"><a href="#">Lesson 3A</a></li>
+							<li class="lesson3"><a href="#">Lesson 3B</a></li>
+							<li class="lesson3"><a href="#">Lesson 3C</a></li>
+							<li class="lesson3"><a href="#">Lesson 3D</a></li>
+						</ul>
+					</li>
+					<li id="part4"><button>Other Resources</button>
+						<ul>
+							<li class="lesson4"><a href="#">Lesson 4A</a></li>
+							<li class="lesson4"><a href="#">Lesson 4B</a></li>
+							<li class="lesson4"><a href="#">Lesson 4 Part C</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			
+
             <div class="main wrapper clearfix">
 
                 <article>
                     <header>
                         <h1>Here's a section</h1>
-                        <p>This should be a short description of the project</p>
+                        <p>Pommy ipsum Prince Charles gravy cheese and chips flabbergasted penny-dreadful Southeners, have a kip collywobbles jammy git yorkshire mixture the lakes air one's dirty linen a right corker, jolly hockey sticks for sooth through the dales tallywhacker it's the dogs bollocks. Nosh smeg gob earwig farewell off with her head bits 'n bobs terribly ever so yorkshire mixture narky, round our gaff apple and pears one would be honoured to golly gosh Queen Elizabeth scones biscuits Shakespeare. Gobsmacked they can sod off narky eton mess jolly good tally-ho full English breakast, sweet fanny adams pulled a right corker taking the mick chips.</p>
+						<p>Houlligan bobby cup of tea throw a spanner in the works old chap, crumpets jolly hockey sticks anorak tip-top, put me soaps back on nowt naff. Biscuits in the goolies completely crackers, it's cracking flags. Double dutch barmy completely crackers a right toff numpty rather loo, spam fritters nosh it's the bees knees it's me peepers. Sherlock stop arsing around whizz accordingly warts and all copper sling one's hook, good old fashioned knees up by 'eck love could murder a pint stupendous spiffing. Sonic Screwdriver on't goggle box up North not some sort of dosshouse absolute twoddle off with her head I'd reet fancy a, a bottle of plonk naff off chin up slappers brown sauce.</p>
+						<p>For sooth chips it's just not cricket gutted superb wedding tackle balderdash leisurely we'll be 'avin less of that bit of a Jack the lad, curtain twitching indeed loo what a doddle baffled big light. Well fit cornish pasty skive lad nosh off t'shop for sooth copper, bowler hat cheerio one feels that rumpy pumpy scarper up North odds and sods, bobby supper bowler hat pulled a right corker Essex girls spiffing. And working class fork out spiffing proper smeg head get away with ya cor blimey' fried toast, whizz on the pull 'tis double dutch Time Lord shepherd's pie Dalek, damn the lakes baffled hard cheese old boy rivetting stuff bovver boots scrubber.</p>
+						<p>Brainbox grab a jumper you 'avin a laugh River Song bovver boots god save the queen, atrocious mince pies a tad. By 'eck love throw a spanner in the works done up like a kipper make a brew jolly nosh working class scrumpy lad a reet bobbydazzler, gobsmacked taking the mick in a pickle leisurely bent as a nine bob note rubbish complete mare alright duck. Dr. Watson what a mug on't goggle box knackered Union Jack ey up narky, dignified good old fashioned knees up naff off taking the mick not some sort of dosshouse rubbish, sweets know your onions earwig 'tis scouser.</p>
+						<p>Daft cow because there was nothing on the gogglebox on't goggle box bobby shepherd's pie porky-pies leisurely ended up brown bread, munta bossy britches cockney earwig snotty nosed brat shepherd's pie, they can sod off one off penny-dreadful up North therewith chin up. Pezzy little nowt scrubber absolute numbskull and thus conkers, made a pig's ear of it scrumpy nutter gobsmacked. Half-inch it mush a cuppa chinwag loo chuffed, off with her head accordingly middle class knackered the lakes, a diamond geezer darling because there was nothing on the gogglebox see a man about a dog.</p>
                     </header>
                     <section>
                         <h2>A subsection</h2>
@@ -61,12 +102,18 @@
 
                 <aside>
                     <h3>aside</h3>
-                    <p>This little sidebar seems cool.  Let's put stuff in it.</p>
+                    <p>Bacon ipsum dolor amet kielbasa jerky brisket venison andouille short loin. Rump cow kielbasa jerky beef ribs pork belly pig. Bresaola t-bone pork belly, pork chop filet mignon shank capicola porchetta. Sausage chuck drumstick, porchetta turkey ham short ribs shank pork chop. Spare ribs venison short ribs beef ribs, shankle tongue chuck sausage. Porchetta pastrami pig andouille tongue swine meatloaf beef ribs spare ribs. Pancetta kevin prosciutto, flank ground round salami tri-tip landjaeger brisket jowl frankfurter.
+					</p>
+					<p>
+					Pastrami tenderloin andouille shankle capicola rump. Leberkas pork loin pork belly pork chop kielbasa. Ball tip sirloin swine porchetta. Sausage filet mignon sirloin chuck turducken shank rump shoulder tenderloin corned beef pancetta. Porchetta shank beef fatback filet mignon.
+					</p>
+					<p>
+					Ribeye pork short loin, pork chop doner shank corned beef swine jowl drumstick ground round shoulder. Shoulder porchetta bacon ham hock spare ribs beef ribs. Bacon shoulder strip steak, frankfurter jerky biltong prosciutto filet mignon porchetta tongue shankle salami pork chop jowl short ribs. Sausage bacon sirloin drumstick turducken shoulder pastrami ham ribeye ground round bresaola rump hamburger chicken jerky..</p>
                 </aside>
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->
-
+		<script type="text/javascript" src="toggle.js"></script>
         <div class="footer-container">
             <footer class="wrapper">
                 <h3>Bottom stuff goes here</h3>
